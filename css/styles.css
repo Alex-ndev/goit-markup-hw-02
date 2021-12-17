@@ -1,0 +1,64 @@
+:root {
+     --logo-color: #2196F3;
+     --hero-color: #2F303A;
+     --header-color: #2F303A;
+     --accent-color: #2196F3; 
+     --team-bg-color: #F5F4FA;;
+     --footer-bg-color: #2F303A;
+     --button-color: #FFFFFF;
+
+}
+
+
+.body {
+    font-family: "Roboto", sans-serif;
+}
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+/* -----HEADER------ */
+
+   
+.studia-action {
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #2196F3;
+           }
+
+
+/* -----HERO------ */
+.hero-color {
+    background: #2F303A; 
+}
+.hero-color.hero-text
+{
+    color: var(--button-color);
+}
+
+.button {
+    color: var(--button-color);
+    background-color: var(--logo-color);
+   }
+  
+.header-link:hover,
+.header-link:focus
+{
+ color: var(--accent-color);
+}
+
+
+/*-----------footer------------*/
+.footer-bg-color{
+    background-color: var(--hero-color);
+}
