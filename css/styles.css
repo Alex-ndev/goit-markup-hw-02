@@ -113,6 +113,13 @@ color: #FFFFFF;
 color: var(--accent-color);
 }
 
+.button-port:hover,
+.button-port:focus {
+color: var(--button-color);
+background-color: var(--accent-color);
+}
+
+
 .title-text {
     font-family: Roboto;
     font-weight: bold;
