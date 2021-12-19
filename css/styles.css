@@ -99,7 +99,15 @@ color: #FFFFFF;
 .button {
     color: var(--button-color);
     background-color: var(--logo-color);
-   }
+     width: 200px;
+     height: 50px;
+     margin: 0 auto; 
+     display: block;
+     font-family: Roboto;
+     line-height:1.88;
+     letter-spacing: 0.06em;
+    }
+   
 .button:hover,
 .button:focus {
       background-color: #188CE8;
@@ -132,8 +140,7 @@ background-color: var(--accent-color);
 
 .bg-color {
     background-color: #F5F4FA;
-
-}
+  }
 .about{
 font-family: Roboto;
 font-weight: bold;
