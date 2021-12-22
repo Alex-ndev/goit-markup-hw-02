@@ -180,9 +180,11 @@ color:#212121;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
     color: #FFFFFF;
-
+}
+.footer-text:hover,
+.footer-text:focus {
+color: var(--accent-color);
 }
 /* ----------Portfilio style---------- */
-/* ----------FOOTER_PORTFOLIO---------- */
 
 
