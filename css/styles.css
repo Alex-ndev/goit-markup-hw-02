@@ -31,7 +31,8 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;   
+    color: #2196F3;
+       
 }
 .studio {
 font-family: Raleway;
@@ -81,7 +82,7 @@ color: #757575;
 
 
 
-/* -----HERO------ */
+/* ------HERO------- */
 .hero-color {
     background: #2F303A; 
 }
@@ -106,7 +107,8 @@ color: #FFFFFF;
      font-family: Roboto;
      line-height:1.88;
      letter-spacing: 0.06em;
-    }
+     cursor: pointer;
+     }
    
 .button:hover,
 .button:focus {
@@ -125,6 +127,7 @@ color: var(--accent-color);
 .button-port:focus {
 color: var(--button-color);
 background-color: var(--accent-color);
+cursor: pointer;
 }
 
 
@@ -179,3 +182,7 @@ color:#212121;
     color: #FFFFFF;
 
 }
+/* ----------Portfilio style---------- */
+/* ----------FOOTER_PORTFOLIO---------- */
+
+
